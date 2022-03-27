@@ -11,7 +11,6 @@
   inputs.src-argon2-v1_0_0.ref   = "refs/tags/v1.0.0";
   inputs.src-argon2-v1_0_0.owner = "Ahrotahn";
   inputs.src-argon2-v1_0_0.repo  = "argon2";
-  inputs.src-argon2-v1_0_0.dir   = "";
   inputs.src-argon2-v1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
